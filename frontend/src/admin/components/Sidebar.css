@@ -1,0 +1,40 @@
+.admin-sidebar {
+  background: #101a2d;
+  color: #e9eef8;
+  min-height: 100vh;
+  padding: 20px 14px;
+}
+
+.admin-sidebar-title {
+  margin: 0 0 20px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.admin-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.admin-nav-link {
+  color: #d2dbec;
+  text-decoration: none;
+  padding: 10px 12px;
+  border-radius: 8px;
+}
+
+.admin-nav-link:hover {
+  background: #1a2945;
+}
+
+.admin-nav-link.active {
+  background: #2f4a78;
+  color: #fff;
+}
+
+@media (max-width: 900px) {
+  .admin-sidebar {
+    min-height: auto;
+  }
+}

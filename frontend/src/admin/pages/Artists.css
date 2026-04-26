@@ -1,0 +1,10 @@
+@import "./Users.css";
+
+.admin-table a {
+  color: #2f4a78;
+  text-decoration: none;
+}
+
+.admin-table a:hover {
+  text-decoration: underline;
+}

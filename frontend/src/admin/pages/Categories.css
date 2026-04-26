@@ -1,0 +1,22 @@
+@import "./Users.css";
+
+.category-form {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 10px;
+  margin-bottom: 14px;
+}
+
+.category-form input {
+  border: 1px solid #cfd6e4;
+  border-radius: 6px;
+  padding: 8px;
+}
+
+.category-form button {
+  border: none;
+  border-radius: 6px;
+  background: #1e2a44;
+  color: #fff;
+  cursor: pointer;
+}

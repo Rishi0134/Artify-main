@@ -1,0 +1,39 @@
+.about-page {
+  display: grid;
+  gap: 2rem;
+}
+
+.about-hero {
+  max-width: 760px;
+}
+
+.about-hero h1 {
+  margin: 0 0 1rem;
+}
+
+.about-story {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.about-story h2 {
+  margin: 0 0 0.8rem;
+}
+
+.about-story p {
+  margin: 0;
+}
+
+.about-stat {
+  display: grid;
+  gap: 0.45rem;
+  text-align: center;
+}
+
+.about-stat strong {
+  font-size: 1.15rem;
+  color: var(--text);
+}
+
+.about-stat span {
+  color: var(--text-secondary);
+}

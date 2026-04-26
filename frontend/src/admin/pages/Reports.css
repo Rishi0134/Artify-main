@@ -1,0 +1,45 @@
+@import "./Users.css";
+
+.reports-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 14px;
+}
+
+.reports-head button {
+  border: none;
+  border-radius: 6px;
+  background: #1e2a44;
+  color: #fff;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.reports-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 12px;
+}
+
+.report-card {
+  border: 1px solid #dbe2ee;
+  border-radius: 10px;
+  padding: 12px;
+}
+
+.report-card h3 {
+  margin-top: 0;
+  color: #1e2a44;
+}
+
+.report-card ul {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.report-card li {
+  margin-bottom: 6px;
+  color: #405170;
+}
