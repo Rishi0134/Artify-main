@@ -45,7 +45,7 @@ backend/
 
 ⚙️ How To Run Backend Locally
 1️⃣ Clone the repository
-git clone https://github.com/madhvi2512/Artify-Virtual_Art_Gallery.git
+git clone https://github.com/Rishi0134/Artify-main.git
 cd Artify-Virtual_Art_Gallery/backend
 
 2️⃣ Install dependencies
